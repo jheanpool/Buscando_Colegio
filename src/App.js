@@ -14,7 +14,6 @@ function App() {
             </Route>
   
             <Route exact path="/Entrada">
-              <Sonido_Entrada />
               <Entrada />
             </Route>
 
