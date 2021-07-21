@@ -3,7 +3,6 @@ import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import VideoPlayer from "react-video-js-player";
 import video_inicio from "../video/video_inicio.mp4";
-import './Inicio.css';
 import './Inicio_VideoJS_Computador.css';
 import './Inicio_VideoJS_Dispositivo.css';
 
