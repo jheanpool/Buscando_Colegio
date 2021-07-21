@@ -3,6 +3,7 @@ import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import entrada from '../fondo_entrada/entrada.jpg';
 import { BrowserRouter as Router, Switch, Route, Link, useParams, useRouteMatch, BrowserRouter } from "react-router-dom";
+import './Entrada.css';
 
 const useStyles = makeStyles((theme) =>
   createStyles({

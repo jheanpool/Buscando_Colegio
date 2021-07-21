@@ -1,12 +1,18 @@
 
 
+.imagen_entrada{
 
+    z-index: 1000;
+    filter: brightness(10%);
+    display: block;
+    
+}
 
+.imagen_entrada:hover{
 
+    filter: brightness(100%);
+    transition: 0.5s;
+    transform: scale(1);
 
-
-
-
-
-                                        
+}                                 
                                           
