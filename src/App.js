@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Entrada from './components/Entrada';
 import Inicio from './components/Inicio';
+import Menu from './components/Menu';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                     </Route>
 
                     <Route exact path="/Inicio">
+                        <Menu />
                         <Inicio />
                     </Route>
 
