@@ -34,8 +34,6 @@ export default function CenteredGrid() {
 
                     </div>
 
-                    <h1>titulo nuevo</h1>
-
                 </Grid>
             </Grid>
         </div>
