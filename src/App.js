@@ -2,8 +2,12 @@ import { BrowserRouter as Router, Switch, Route, Link, useParams, useRouteMatch,
 import React from 'react';
 import './App.css';
 import Entrada from './components/Entrada';
+import Menu_Inicio from './components/Menu_Inicio';
+import Menu_Nosotros from './components/Menu_Nosotros';
 import Inicio from './components/Inicio';
-import Menu from './components/Menu';
+import Nosotros from './components/Nosotros';
+
+
 
 function App() {
     return (
@@ -16,8 +20,13 @@ function App() {
                     </Route>
 
                     <Route exact path="/Inicio">
-                        <Menu />
+                        <Menu_Inicio />
                         <Inicio />
+                    </Route>
+
+                    <Route path="/Nosotros">
+                        <Menu_Nosotros />
+                        <Nosotros />
                     </Route>
 
                 </Switch>
