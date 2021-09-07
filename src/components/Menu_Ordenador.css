@@ -1,0 +1,207 @@
+.App {
+
+    max-width: 1920px;
+  
+}
+  
+.App-link {
+    color: #09d3ac;
+}
+  
+.row {
+    display: flex;
+}
+  
+.sidebar {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+  
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+    
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+        
+}
+  
+.MuiMenu-paper {
+
+    max-height: calc(100% - 96px);
+    -webkit-overflow-scrolling: touch;
+    margin-top: 93px;
+    margin-left: 40px;
+    width: 140px;
+    
+}
+
+.MuiMenu-list {
+  
+    background-color: rgba(0, 7, 24, 0.911);
+    z-index: 0;
+    box-shadow: none;
+    border-radius: none;
+    
+      
+}
+
+.MuiMenu-list a {
+  
+    width: 100%;
+    padding: 2px 2px 2px;
+    z-index: 0;
+    font-size: 18px;
+      
+}
+
+.MuiMenu-list a:hover{
+        
+    color:rgb(4, 189, 246); 
+       
+}
+
+.MuiButtonBase-root{
+  
+    padding: 45px 45px 45 px;
+    
+}
+
+.toggle {
+    margin-left: 90%;
+    margin-top: -80px;
+    position: absolute;
+    position: fixed;
+    opacity: 100%;
+    z-index: 10000;
+    
+}
+    
+.Logo_menu01{
+    
+    margin-top: 8px;
+    margin-left: 7px;
+    padding: 0.3%;
+    padding-top: 25px;
+    height: 190%px;
+    width: 7%;
+     
+}
+
+.Logo_menu{
+    
+    opacity: 0%;
+     
+}
+   
+.navbar {
+    
+    display: flex;
+    background-color:  rgba(0, 0, 0, 0.863);
+    position: fixed;
+    width: 2100px;
+    z-index: 1000;
+    box-shadow: none;
+    margin-top: -109px;
+    opacity: 90%;
+    align-content: center;
+    margin-left: -4px;
+    
+           
+}
+
+.navbar a {
+
+    color:  rgb(255, 255, 255);
+    padding: 74px 119px 30px 22px;
+    align-content: center;
+    text-decoration: none;
+    margin-top: -17px;
+    font-size: 18px;
+    opacity: 80%;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    background-color:  rgba(255, 0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    width: 0%;
+    transform: scale(90%);
+    transform: translateY(5%);
+          
+}
+
+.navbar a:hover{
+
+    opacity: 100%;
+    transition: 0.4s;
+    transform: scale(100%);
+    color: rgb(0, 195, 255);
+    
+}
+
+.navbar a:focus{
+
+    opacity: 100%;
+    transition: 0.4s;
+    transform: scale(100%);
+    color: rgb(0, 195, 255);
+    
+}
+
+.MuiButton-label {
+
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px rgb(0 0 0);
+    font-size: 17px;
+    color:rgb(255, 255, 255);
+    height: 70px;
+    margin-left: 70%;
+
+}
+
+.MuiSvgIcon-root {
+
+    margin-top: -50px;
+    margin-left: 0px;
+    color: #ffffff;
+    
+}
+
+.MuiMenu-list {
+    outline: 0;
+    background-color: rgb(8, 9, 12);
+    margin-top: 1200%;
+      
+}
+
+.MuiMenu-paper {
+    max-height: calc(100% - 96px);
+    -webkit-overflow-scrolling: touch;
+    margin-top: 45px;
+    margin-left:35px;
+    width: 140px;
+    box-shadow: none;
+    
+
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.MuiButton-text {
+    padding: 6px 8px;
+    margin-left: 50px;
+}
+
