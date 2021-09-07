@@ -1,13 +1,9 @@
 import React from 'react';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import VideoPlayer from "react-video-js-player";
-import video_inicio from "../video/video_inicio.mp4";
-import './Inicio_VideoJS_Ordenador.css';
-import './Inicio_VideoJS_Dispositivo.css';
+import '../App.css';
 
 const useStyles = makeStyles((theme) =>
-
   createStyles({
     root: {
       flexGrow: 1,
@@ -24,23 +20,32 @@ const useStyles = makeStyles((theme) =>
 export default function CenteredGrid() {
 
   const classes = useStyles();
-  const videoSrc = video_inicio ;
 
   return (
     <div className={classes.root}>
       <Grid container spacing={3}>
         <Grid item xs={12} sm={12} md={12} lg={12}>
 
+          <div className="imagen_tapiceria">
+            
 
-        <div className="video_inicio">
-          <VideoPlayer src={videoSrc} autoplay
-           playbackRates={[0,5 , 1, 3.85, 16]}/> 
-          
-        </div>
+          </div>
+
+        </Grid>
+
+        <Grid item xs={11} sm={11} md={11} lg={11}>
+
+          <div className="proceso">
+
+            <p>Proceso</p>
+
+            <br></br>
+
+          </div>
+
         </Grid>
       </Grid>
     </div>
 
   )
 }
-

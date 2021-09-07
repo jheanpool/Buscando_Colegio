@@ -30,7 +30,7 @@ export default function CenteredGrid() {
 
                     <div className="imagen_entrada">
 
-                        <Link to="/Inicio"><img src={entrada} alt="entrada" height="100%" width="100%" /></Link>
+                        <Link to="/Principal"><img src={entrada} alt="entrada" height="100%" width="100%" /></Link>
 
                     </div>
 

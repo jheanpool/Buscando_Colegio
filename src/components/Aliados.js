@@ -35,9 +35,9 @@ export default function CenteredGrid() {
 
         <Grid item xs={11} sm={11} md={11} lg={11}>
 
-          <div className="nosotros">
+          <div className="contacto">
 
-            <p>Nosotros</p>
+            <p>Aliados</p>
 
             <br></br>
 

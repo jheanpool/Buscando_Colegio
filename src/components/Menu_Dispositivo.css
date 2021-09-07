@@ -1,0 +1,162 @@
+                     @media screen and (max-width: 1024px) {
+                                .row, .navbar {
+                            flex-direction: column;
+                                padding-top: 8%;
+
+                                        }
+            
+
+body {
+
+    background-color: rgb(0, 7, 24);
+
+}
+
+.toggle {
+
+    margin-left: 74%;
+    margin-top: -3%;
+    color: beige;
+    position: fixed;
+    opacity: 100%;
+    z-index: 2000;
+    
+}
+
+.Logo_menu{
+
+    margin-top: 1%;
+    margin-left: 1%;
+    padding: 0.3%;
+    opacity: 100%;
+
+    
+    
+}
+
+.Logo_menu01{
+
+    margin-top: 1%;
+    margin-left: 1%;
+    padding: 0.3%;
+    opacity: 0%;
+
+    
+    
+}
+   
+.navbar {
+
+display: flex;
+background-color: rgba(0, 7, 24, 0);
+padding-top: 0%;
+box-shadow:none;
+width:300px;
+position: relative;
+margin-top: -70px;
+z-index: 0;
+height: 200%;
+
+}
+
+.navbar a {
+color: rgb(255, 255, 255);
+padding: 28.5px 45px 15px;
+text-decoration: none;
+text-align: left;
+font-family: 'Abel', sans-serif;
+text-shadow: 1px 1px 1px rgb(0, 0, 0);
+margin-top: -6%;
+font-size: 16.5px;
+margin-left: 0%;
+
+
+}
+
+.navbar a:hover{
+
+background:rgb(4, 189, 246);
+height: 20px;
+width: 325px;
+
+}
+
+.boton_jardines{
+
+margin-left: -1%;
+margin-top: -4%;
+
+}
+
+.boton_colegios{
+
+margin-left: -1%;
+margin-top: -6.5%;
+
+
+}
+
+.boton_educacion{
+
+    margin-left: -2%;
+    margin-top: -7%;
+    margin-bottom: -2.5%;
+    padding: -50% ;
+
+}
+
+.MuiSvgIcon-root {
+
+margin-top: -5px;
+margin-left: 0px;
+color: #ffffff;
+
+}
+
+.MuiMenu-list {
+outline: 0;
+background-color: rgb(8, 9, 12);
+margin-top: 1200%;
+margin-left: 50%;
+
+
+}
+
+.MuiMenu-paper {
+max-height: calc(100% - 96px);
+-webkit-overflow-scrolling: touch;
+margin-top: 45px;
+margin-left:35px;
+width: 140px;
+box-shadow: none;
+border-radius: none;
+
+}
+
+ul {
+display: block;
+list-style-type: disc;
+margin-block-start: 0em;
+margin-block-end: 0em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding-inline-start: 40px;
+}
+
+.MuiButton-text {
+padding: 6px 8px;
+margin-left: 50px;
+
+}
+
+
+.iconos_footer{
+
+width: 78%;
+margin-left:8%;
+padding-top: 1px;
+
+
+}
+
+}
