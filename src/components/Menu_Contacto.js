@@ -10,7 +10,7 @@ import './Menu_Ordenador.css';
 import './Menu_Dispositivo.css';
 import Pestaña_Jardines from '../components/Pestaña_Jardines';
 import Pestaña_Colegios from '../components/Pestaña_Colegios';
-import Pestaña_Educacion_Virtual from '../components/Pestaña_Educacion_virtual';
+import Pestaña_Educacion_Virtual from '../components/Pestaña_Educacion_Virtual';
 
 
 const useStyles = makeStyles((theme) =>
