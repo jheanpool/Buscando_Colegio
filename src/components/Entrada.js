@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import entrada from '../fondo_entrada/entrada.jpg';
+import video_entrada from '../video_gif/video_entrada.gif';
 import { BrowserRouter as Router, Switch, Route, Link, useParams, useRouteMatch, BrowserRouter } from "react-router-dom";
 import './Entrada.css';
 
@@ -30,7 +30,7 @@ export default function CenteredGrid() {
 
                     <div className="imagen_entrada">
 
-                        <Link to="/Principal"><img src={entrada} alt="entrada" height="100%" width="100%" /></Link>
+                        <Link to="/Principal"><img src={video_entrada} alt="video_entrada" height="100%" width="100%" /></Link>
 
                     </div>
 
