@@ -6,6 +6,7 @@ import Grid from '@material-ui/core/Grid';
 import logo_menu from '../logo_buscando_colegio/logo_menu.png';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import { Icon } from '@material-ui/core';
+import HomeIcon from '@material-ui/icons/Home';
 import './Menu_Ordenador.css';
 import './Menu_Dispositivo.css';
 import Pestaña_Jardines from '../components/Pestaña_Jardines';
@@ -73,7 +74,11 @@ function App() {
                     <img src={logo_menu} alt="logo_menu" width="130" />
                   </div>
 
-               
+                  <div className="icono_aliados">
+
+                    <HomeIcon />
+
+                  </div>
 
                     <Link to="/Principal">Principal</Link>
 

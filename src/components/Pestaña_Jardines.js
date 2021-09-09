@@ -29,9 +29,9 @@ export default function SimpleMenu() {
         onClose={handleClose}
       >
         <div className="submenu_jardines">
-        <MenuItem onClick={handleClose}><Link to="/Cali">Cali</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link to="/Bogotá">Bogotá</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link to="/Medellín">Medellín</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link to="/Jardines_Cali">Cali</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link to="/Jardines_Bogotá">Bogotá</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link to="/Jardines_Medellín">Medellín</Link></MenuItem>
         </div>
       </Menu>
     </div>

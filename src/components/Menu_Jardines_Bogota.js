@@ -9,9 +9,9 @@ import { Icon } from '@material-ui/core';
 import HomeIcon from '@material-ui/icons/Home';
 import './Menu_Ordenador.css';
 import './Menu_Dispositivo.css';
-import Pestaña_Jardines from '../components/Pestaña_Jardines';
-import Pestaña_Colegios from '../components/Pestaña_Colegios';
-import Pestaña_Educacion_Virtual from '../components/Pestaña_Educacion_Virtual';
+import Pestaña_Jardines from './Pestaña_Jardines';
+import Pestaña_Colegios from './Pestaña_Colegios';
+import Pestaña_Educacion_Virtual from './Pestaña_Educacion_Virtual';
 
 
 const useStyles = makeStyles((theme) =>
@@ -74,7 +74,7 @@ function App() {
                     <img src={logo_menu} alt="logo_menu" width="130" />
                   </div>
 
-                  <div className="icono_nosotros">
+                  <div className="icono_proceso">
 
                      <HomeIcon />
 
@@ -94,7 +94,7 @@ function App() {
 
                   <Switch>
 
-                    <Route exact path="/Nosotros">
+                    <Route exact path="/Jardines_Bogotá">
 
                       <div className="boton_jardines">
                         <Pestaña_Jardines />

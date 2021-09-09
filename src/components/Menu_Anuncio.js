@@ -74,7 +74,7 @@ function App() {
                     <img src={logo_menu} alt="logo_menu" width="130" />
                   </div>
 
-                  <div className="icono_nosotros">
+                  <div className="icono_anuncio">
 
                      <HomeIcon />
 
@@ -94,7 +94,7 @@ function App() {
 
                   <Switch>
 
-                    <Route exact path="/Nosotros">
+                    <Route exact path="/Anuncio">
 
                       <div className="boton_jardines">
                         <Pestaña_Jardines />

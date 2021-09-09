@@ -86,12 +86,13 @@ a:-webkit-any-link {
     
 .Logo_menu01{
     
-    margin-top: 7px;
-    margin-left: 12px;
+    margin-top:-12px;
+    margin-left: 0%;
+    padding-right: 10px;
     padding: 0.1%;
-    padding-top: 30px;
-    height: 190%px;
-    width: 7%;
+    padding-top: 40px;
+    background-color: black;
+    box-shadow: 1px 1px 1px rgb(0 0 0);
      
 }
 
@@ -100,58 +101,102 @@ a:-webkit-any-link {
     opacity: 0%;
      
 }
+
+.icono_principal{
+
+    margin-top: 4%;
+    margin-left: 15%;
+    position: absolute;
+    opacity: 90%;
+    z-index: 1000;
+
+}
+
+.icono_anuncio{
+
+    margin-top: 4%;
+    margin-left: 25.2%;
+    position: absolute;
+    opacity: 90%;
+    z-index: 1000;
+    
+
+}
+
+
+.icono_nosotros{
+
+    margin-top: 4%;
+    margin-left: 35.7%;
+    position: absolute;
+    opacity: 90%;
+    z-index: 1000;
+
+}
+
+.icono_proceso{
+
+    margin-top: 4%;
+    margin-left: 45.8%;
+    position: absolute;
+    opacity: 90%;
+    z-index: 1000;
+
+}
+
+.icono_contacto{
+
+    margin-top: 4%;
+    margin-left: 97.2%;
+    position: absolute;
+    opacity: 90%;
+    z-index: 1000;
+
+}
    
 .navbar {
     
     display: flex;
-    background-color:  rgba(0, 0, 0, 0.863);
+    background-color:  rgba(44, 44, 44, 0.733);
     position: fixed;
-    width: 2100px;
+    width: 1340px;
     z-index: 1000;
     box-shadow: none;
-    margin-top: -112px;
-    opacity: 90%;
+    margin-top: -133px;
+    opacity: 75%;
     align-content: center;
-    margin-left: -4px;
-  
-    
-           
+    margin-left: -10px;
+        
 }
 
 .navbar a {
 
     color:  rgb(255, 255, 255);
-    padding: 74px 119px 30px 22px;
+    padding: 92px 86px 30px 22px;
+    margin-left: 5px;
     align-content: center;
+    justify-content: right;
     text-decoration: none;
     margin-top: -15px;
     font-size: 18px;
-    opacity: 80%;
+    opacity: 100%;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    background-color:  rgba(255, 0, 0, 0);
     font-family:Arial, Helvetica, sans-serif;
-    width: 0%;
-    transform: scale(90%);
-    transform: translateY(5%);
-          
+    width: 0.6%;
+    text-decoration: transparent rgb(255, 255, 255) 2px;
+    transform: translateX(0%);
+    background-color: black;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    transition: 0.7s;
+    padding-left: 40px;
+
 }
 
-.navbar a:hover{
+.navbar a:hover {
 
-    opacity: 100%;
-    transition: 0.4s;
-    transform: scale(100%);
-    color: rgb(0, 195, 255);
-    
-}
+    color:  rgb(0, 204, 255);
+    transform: scale3d(1dev);
 
-.navbar a:focus{
-
-    opacity: 100%;
-    transition: 0.4s;
-    transform: scale(100%);
-    color: rgb(0, 195, 255);
-    
 }
 
 .MuiButton-label {
@@ -176,11 +221,11 @@ a:-webkit-any-link {
 .MuiMenu-list {
     outline: 0;
     background-color: rgb(8, 9, 12);
-    margin-top: 1200%;
       
 }
 
 .MuiMenu-paper {
+
     max-height: calc(100% - 96px);
     -webkit-overflow-scrolling: touch;
     margin-top: 45px;

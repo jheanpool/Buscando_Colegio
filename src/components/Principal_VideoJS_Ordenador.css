@@ -1,15 +1,16 @@
 .video_inicio{
 
     margin-top: -105px;
+    margin-left: -8px;
 }
 
 .video-js{
 
     display: block;
-    margin-left: -10px;
+    margin-left: 5px;
     margin-right: auto;
     border-radius: 0px;
-    width: 1390px;
+    width: 1369px;
     height: 732px;
 
 }
