@@ -35,7 +35,7 @@ export default function CenteredGrid() {
 
         <Grid item xs={11} sm={11} md={11} lg={11}>
 
-          <div className="anuncios">
+          <div className="anuncio">
 
             <p>Anuncio</p>
 

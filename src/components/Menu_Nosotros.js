@@ -4,9 +4,11 @@ import { BrowserRouter as Router, Switch, Route, Link, useParams, useRouteMatch 
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import logo_menu from '../logo_buscando_colegio/logo_menu.png';
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-import { Icon } from '@material-ui/core';
+import NotificationsIcon from '@material-ui/icons/Notifications';
+import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 import HomeIcon from '@material-ui/icons/Home';
+import AssignmentIcon from '@material-ui/icons/Assignment';
+import CallIcon from '@material-ui/icons/Call';
 import './Menu_Ordenador.css';
 import './Menu_Dispositivo.css';
 import Pestaña_Jardines from '../components/Pestaña_Jardines';
@@ -74,7 +76,7 @@ function App() {
                     <img src={logo_menu} alt="logo_menu" width="130" />
                   </div>
 
-                  <div className="icono_nosotros">
+                  <div className="icono_principal">
 
                      <HomeIcon />
 
@@ -82,14 +84,31 @@ function App() {
 
                   <Link to="/Principal">Principal</Link>
 
+                  <div className="icono_anuncio">
 
-                  <Link to="/Anuncio">Anuncio</Link>
+                     <NotificationsIcon />
+
+                  </div>
+                  
+                  <Link to="/Anuncio">Anuncios</Link>
+
+                  <div className="icono_nosotros">
+
+                    <AssignmentIndIcon  />
+
+                  </div>
 
 
                   <Link to="/Nosotros">Nosotros</Link>
 
+                  <div className="icono_proceso">
 
-                  <Link to="/Proceso">Proceso</Link>
+                     <AssignmentIcon />
+
+                  </div>
+
+
+                  <Link to="/Proceso">Procesos</Link>
 
 
                   <Switch>
@@ -116,6 +135,11 @@ function App() {
 
                   <Link to="/Contacto">Contacto</Link>
 
+                  <div className="icono_contacto">
+
+                   <CallIcon />
+
+                  </div>
                 
                   <br></br>
 

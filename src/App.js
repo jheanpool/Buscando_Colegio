@@ -47,17 +47,17 @@ function App() {
                     </Route>
 
                     <Route path="/Anuncio">
-                        <Menu_Anuncio />
+                        <Menu_Principal />
                         <Anuncio />
                     </Route>
 
                     <Route path="/Nosotros">
-                        <Menu_Nosotros />
+                        <Menu_Principal />
                         <Nosotros />
                     </Route>
 
                     <Route path="/Proceso">
-                        <Menu_Proceso />
+                        <Menu_Principal />
                         <Proceso />
                     </Route>
 
@@ -97,13 +97,8 @@ function App() {
                     </Route>
 
                     <Route path="/Contacto">
-                        <Menu_Contacto />
+                        <Menu_Principal />
                         <Contacto />
-                    </Route>
-
-                    <Route path="/Aliados">
-                        <Menu_Aliados />
-                        <Aliados />
                     </Route>
 
                 </Switch>

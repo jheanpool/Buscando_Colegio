@@ -64,7 +64,7 @@ a:-webkit-any-link {
 
 .MuiMenu-list a:hover{
         
-    color:rgb(4, 189, 246); 
+    color:rgb(4, 210, 246); 
        
 }
 
@@ -86,13 +86,12 @@ a:-webkit-any-link {
     
 .Logo_menu01{
     
-    margin-top:-12px;
+    margin-top:2px;
     margin-left: 0%;
     padding-right: 10px;
     padding: 0.1%;
     padding-top: 40px;
-    background-color: black;
-    box-shadow: 1px 1px 1px rgb(0 0 0);
+
      
 }
 
@@ -104,76 +103,87 @@ a:-webkit-any-link {
 
 .icono_principal{
 
-    margin-top: 4%;
-    margin-left: 15%;
+    margin-top: 6.2%;
+    margin-left: 11%;
+    position: absolute;
+    opacity: 90%;
+    z-index: 1000;
+
+}
+.icono_anuncio{
+
+    margin-top: 6.2%;
+    margin-left: 21.6%;
     position: absolute;
     opacity: 90%;
     z-index: 1000;
 
 }
 
-.icono_anuncio{
+.icono_nosotros{
 
-    margin-top: 4%;
-    margin-left: 25.2%;
+    margin-top: 6.2%;
+    margin-left: 32.2%;
     position: absolute;
     opacity: 90%;
     z-index: 1000;
     
-
 }
 
+.nosotros01{
 
-.icono_nosotros{
-
-    margin-top: 4%;
-    margin-left: 35.7%;
+    margin-top: 6.2%;
+    margin-left: 32.2%;
     position: absolute;
-    opacity: 90%;
+    opacity: 50%;
     z-index: 1000;
-
+    
 }
 
 .icono_proceso{
 
-    margin-top: 4%;
-    margin-left: 45.8%;
+    margin-top: 6.2%;
+    margin-left: 42.8%;
     position: absolute;
     opacity: 90%;
     z-index: 1000;
-
+    
 }
 
 .icono_contacto{
 
-    margin-top: 4%;
-    margin-left: 97.2%;
+    margin-top: 6.3%;
+    margin-left: 86.45%;
     position: absolute;
     opacity: 90%;
     z-index: 1000;
-
+    transform: rotate(20deg);
+    
+    
 }
-   
+
 .navbar {
     
     display: flex;
-    background-color:  rgba(44, 44, 44, 0.733);
+    background-color:  rgb(5, 5, 5);
     position: fixed;
-    width: 1340px;
+    width: 1374px;
     z-index: 1000;
     box-shadow: none;
-    margin-top: -133px;
-    opacity: 75%;
+    margin-top: -150px;
+    opacity: 80%;
     align-content: center;
-    margin-left: -10px;
+    margin-left: -5px;
+    padding-bottom: 0px;
+
         
 }
 
 .navbar a {
 
     color:  rgb(255, 255, 255);
-    padding: 92px 86px 30px 22px;
-    margin-left: 5px;
+    padding: 104px 92px 30px 22px;
+    margin-left: 6px;
     align-content: center;
     justify-content: right;
     text-decoration: none;
@@ -185,9 +195,7 @@ a:-webkit-any-link {
     width: 0.6%;
     text-decoration: transparent rgb(255, 255, 255) 2px;
     transform: translateX(0%);
-    background-color: black;
-    box-shadow: 2px 2px 2px rgb(0, 0, 0);
-    transition: 0.7s;
+    transition: 0.3s;
     padding-left: 40px;
 
 }
@@ -195,9 +203,26 @@ a:-webkit-any-link {
 .navbar a:hover {
 
     color:  rgb(0, 204, 255);
-    transform: scale3d(1dev);
+
+    
 
 }
+
+.navbar a:focus {
+
+    color:  rgb(0, 204, 255);
+    
+    
+
+}
+
+.navbar a:active {
+
+    color:  rgb(0, 204, 255);
+    
+
+}
+
 
 .MuiButton-label {
 

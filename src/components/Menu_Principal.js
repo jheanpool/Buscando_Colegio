@@ -4,9 +4,11 @@ import { BrowserRouter as Router, Switch, Route, Link, useParams, useRouteMatch 
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import logo_menu from '../logo_buscando_colegio/logo_menu.png';
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-import { Icon } from '@material-ui/core';
+import NotificationsIcon from '@material-ui/icons/Notifications';
+import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 import HomeIcon from '@material-ui/icons/Home';
+import AssignmentIcon from '@material-ui/icons/Assignment';
+import CallIcon from '@material-ui/icons/Call';
 import './Menu_Ordenador.css';
 import './Menu_Dispositivo.css';
 import Pestaña_Jardines from '../components/Pestaña_Jardines';
@@ -74,48 +76,139 @@ function App() {
                     <img src={logo_menu} alt="logo_menu" width="130" />
                   </div>
 
+                  <Link to="/Principal">Principal</Link>
+
                   <div className="icono_principal">
 
                      <HomeIcon />
 
                   </div>
 
-                  <Link to="/Principal">Principal</Link>
 
+                  <Link to="/Anuncio">Anuncios</Link>
 
-                  <Link to="/Anuncio">Anuncio</Link>
+                  <div className="icono_anuncio">
 
+                     <NotificationsIcon />
 
+                  </div>
+                  
+                  
                   <Link to="/Nosotros">Nosotros</Link>
 
+                  <div className="icono_nosotros">
 
-                  <Link to="/Proceso">Proceso</Link>
+                    <AssignmentIndIcon  />
+
+                  </div>
+
+                  <Link to="/Proceso">Procesos</Link>
+
+                  <div className="icono_proceso">
+
+                     <AssignmentIcon />
+
+                  </div>
 
 
                   <Switch>
 
                     <Route exact path="/Principal">
 
-                      <div className="boton_jardines">
-                        <Pestaña_Jardines />
-                      </div>
+                          <div className="boton_jardines">
+                            <Pestaña_Jardines />
+                          </div>
 
 
-                      <div className="boton_colegios">
-                        <Pestaña_Colegios />
-                      </div>
+                          <div className="boton_colegios">
+                            <Pestaña_Colegios />
+                          </div>
 
-                      <div className="boton_educacion_virtual">
-                        <Pestaña_Educacion_Virtual />
-                      </div>
+                          <div className="boton_educacion_virtual">
+                            <Pestaña_Educacion_Virtual />
+                          </div>
 
                     </Route>
+
+                    
+                    <Route exact path="/Anuncio">
+
+                          <div className="boton_jardines">
+                            <Pestaña_Jardines />
+                          </div>
+
+
+                          <div className="boton_colegios">
+                            <Pestaña_Colegios />
+                          </div>
+
+                          <div className="boton_educacion_virtual">
+                            <Pestaña_Educacion_Virtual />
+                          </div>
+
+                    </Route>
+
+                    <Route exact path="/Nosotros">
+
+                          <div className="boton_jardines">
+                            <Pestaña_Jardines />
+                          </div>
+
+
+                          <div className="boton_colegios">
+                            <Pestaña_Colegios />
+                          </div>
+
+                          <div className="boton_educacion_virtual">
+                            <Pestaña_Educacion_Virtual />
+                          </div>
+
+                    </Route>
+
+                    <Route exact path="/Proceso">
+
+                          <div className="boton_jardines">
+                            <Pestaña_Jardines />
+                          </div>
+
+
+                          <div className="boton_colegios">
+                            <Pestaña_Colegios />
+                          </div>
+
+                          <div className="boton_educacion_virtual">
+                            <Pestaña_Educacion_Virtual />
+                          </div>
+
+                    </Route>
+
+                    <Route exact path="/Contacto">
+
+                          <div className="boton_jardines">
+                            <Pestaña_Jardines />
+                          </div>
+
+
+                          <div className="boton_colegios">
+                            <Pestaña_Colegios />
+                          </div>
+
+                          <div className="boton_educacion_virtual">
+                            <Pestaña_Educacion_Virtual />
+                          </div>
+
+                          </Route>
 
                   </Switch>
 
 
                   <Link to="/Contacto">Contacto</Link>
 
+                  <div className="icono_contacto">
+
+                   <CallIcon />
+
+                  </div>
                 
                   <br></br>
 

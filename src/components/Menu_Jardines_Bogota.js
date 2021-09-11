@@ -4,14 +4,17 @@ import { BrowserRouter as Router, Switch, Route, Link, useParams, useRouteMatch 
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import logo_menu from '../logo_buscando_colegio/logo_menu.png';
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-import { Icon } from '@material-ui/core';
-import HomeIcon from '@material-ui/icons/Home';
-import './Menu_Ordenador.css';
-import './Menu_Dispositivo.css';
 import Pestaña_Jardines from './Pestaña_Jardines';
 import Pestaña_Colegios from './Pestaña_Colegios';
 import Pestaña_Educacion_Virtual from './Pestaña_Educacion_Virtual';
+import NotificationsIcon from '@material-ui/icons/Notifications';
+import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
+import AssignmentIcon from '@material-ui/icons/Assignment';
+import HomeIcon from '@material-ui/icons/Home';
+import CallIcon from '@material-ui/icons/Call';
+import './Menu_Ordenador.css';
+import './Menu_Dispositivo.css';
+
 
 
 const useStyles = makeStyles((theme) =>
@@ -74,22 +77,42 @@ function App() {
                     <img src={logo_menu} alt="logo_menu" width="130" />
                   </div>
 
-                  <div className="icono_proceso">
+                  
+
+                  <Link to="/Principal">Principal</Link>
+
+                  <div className="icono_principal">
 
                      <HomeIcon />
 
                   </div>
 
-                  <Link to="/Principal">Principal</Link>
+                  
+                  <Link to="/Anuncio">Anuncios</Link>
 
+                  <div className="icono_anuncio">
 
-                  <Link to="/Anuncio">Anuncio</Link>
+                     <NotificationsIcon />
+
+                  </div>
 
 
                   <Link to="/Nosotros">Nosotros</Link>
 
+                  <div className="icono_nosotros">
 
-                  <Link to="/Proceso">Proceso</Link>
+                  <AssignmentIndIcon  />
+
+                  </div>
+
+
+                  <Link to="/Proceso">Procesos</Link>
+
+                  <div className="icono_proceso">
+
+                     <AssignmentIcon />
+
+                  </div>
 
 
                   <Switch>
@@ -115,6 +138,12 @@ function App() {
 
 
                   <Link to="/Contacto">Contacto</Link>
+
+                  <div className="icono_contacto">
+
+                   <CallIcon />
+
+                  </div>
 
                 
                   <br></br>

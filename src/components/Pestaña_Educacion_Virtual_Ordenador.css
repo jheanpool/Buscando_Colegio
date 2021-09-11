@@ -2,11 +2,11 @@
 
   
     font-size: 18px;
-    margin-left: 5px;
+    margin-left: 25px;
     padding-left: 0%;
-    padding-right: 4.8%;
-    margin-right: 0px;
-    margin-top: 18px;
+    padding-right: 52px;
+    margin-right: 20px;
+    margin-top: 24.3px;
     width: 9%;
     z-index: 2000;
     color:  rgb(255, 255, 255);
@@ -14,8 +14,6 @@
     font-size: 20.5px;
     z-index: 2000;
     opacity: 100%;
-    background-color: black;
-    box-shadow: 1px 1px 1px rgb(0 0 0);
  
 }
 
