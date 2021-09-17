@@ -1,3 +1,10 @@
+body {
+
+    background-color: rgb(255, 255, 255);
+
+}
+
+
 .App {
 
     max-width: 1920px;
@@ -5,10 +12,14 @@
 }
   
 .App-link {
+
     color: #09d3ac;
 }
+
+.backgroun
   
 .row {
+
     display: flex;
 }
   
@@ -19,12 +30,14 @@
 }
   
 .main {
+
     flex: 70%;
     background-color: white;
     padding: 20px;
 }
     
 a:-webkit-any-link {
+
     color: -webkit-link;
     cursor: pointer;
     text-decoration: none;
@@ -48,7 +61,9 @@ a:-webkit-any-link {
     background-color: rgba(0, 7, 24, 0.911);
     z-index: 0;
     box-shadow: none;
-    border-radius: none;
+    border-radius: 0px 0px 0px;
+    
+    
     
       
 }
@@ -59,6 +74,7 @@ a:-webkit-any-link {
     padding: 2px 2px 2px;
     z-index: 0;
     font-size: 18px;
+    margin-left: 10%;
       
 }
 
@@ -75,6 +91,7 @@ a:-webkit-any-link {
 }
 
 .toggle {
+    
     margin-left: 90%;
     margin-top: -80px;
     position: absolute;
@@ -103,17 +120,19 @@ a:-webkit-any-link {
 
 .icono_principal{
 
-    margin-top: 6.2%;
-    margin-left: 11%;
+    margin-top: 6.5%;
+    margin-left: 11.5%;
     position: absolute;
     opacity: 90%;
     z-index: 1000;
 
 }
+
+
 .icono_anuncio{
 
-    margin-top: 6.2%;
-    margin-left: 21.6%;
+    margin-top: 6.5%;
+    margin-left: 22.5%;
     position: absolute;
     opacity: 90%;
     z-index: 1000;
@@ -122,28 +141,18 @@ a:-webkit-any-link {
 
 .icono_nosotros{
 
-    margin-top: 6.2%;
-    margin-left: 32.2%;
+    margin-top: 6.5%;
+    margin-left: 33.4%;
     position: absolute;
     opacity: 90%;
     z-index: 1000;
     
 }
 
-.nosotros01{
-
-    margin-top: 6.2%;
-    margin-left: 32.2%;
-    position: absolute;
-    opacity: 50%;
-    z-index: 1000;
-    
-}
-
 .icono_proceso{
 
-    margin-top: 6.2%;
-    margin-left: 42.8%;
+    margin-top: 6.5%;
+    margin-left: 44.4%;
     position: absolute;
     opacity: 90%;
     z-index: 1000;
@@ -152,31 +161,51 @@ a:-webkit-any-link {
 
 .icono_contacto{
 
-    margin-top: 6.3%;
-    margin-left: 86.45%;
+    margin-top: 6.5%;
+    margin-left: 89.3%;
     position: absolute;
     opacity: 90%;
     z-index: 1000;
     transform: rotate(20deg);
     
+
+}
+
+.nosotros01{
+
+    margin-top: 6.5%;
+    margin-left: 32.2%;
+    position: absolute;
+    opacity: 50%;
+    z-index: 1000;
     
 }
+
 
 .navbar {
     
     display: flex;
-    background-color:  rgb(5, 5, 5);
+    background-color:  rgb(0, 7, 24);
     position: fixed;
-    width: 1374px;
-    z-index: 1000;
+    width: 1320px;
+    z-index: 2000;
     box-shadow: none;
-    margin-top: -150px;
-    opacity: 80%;
+    margin-top: -148px;
+    opacity: 90%;
     align-content: center;
-    margin-left: -5px;
+    margin-left: 15px;
     padding-bottom: 0px;
+    border-radius: 18px 18px 18px 18px;
+    transition: 0.7s;
 
         
+}
+
+.navbar:hover{
+
+    margin-top: -135px;
+    opacity: 95%;
+
 }
 
 .navbar a {
@@ -190,7 +219,7 @@ a:-webkit-any-link {
     margin-top: -15px;
     font-size: 18px;
     opacity: 100%;
-    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.815);
     font-family:Arial, Helvetica, sans-serif;
     width: 0.6%;
     text-decoration: transparent rgb(255, 255, 255) 2px;
@@ -203,7 +232,6 @@ a:-webkit-any-link {
 .navbar a:hover {
 
     color:  rgb(0, 204, 255);
-
     
 
 }
@@ -211,7 +239,6 @@ a:-webkit-any-link {
 .navbar a:focus {
 
     color:  rgb(0, 204, 255);    
-    
 
 }
 
@@ -236,15 +263,18 @@ a:-webkit-any-link {
 
 .MuiSvgIcon-root {
 
-    margin-top: -50px;
+    margin-top: -0px;
     margin-left: 0px;
     color: #ffffff;
     
 }
 
 .MuiMenu-list {
+
     outline: 0;
-    background-color: rgb(8, 9, 12);
+    background-color:  rgb(0, 7, 24);
+    
+
       
 }
 
@@ -252,12 +282,12 @@ a:-webkit-any-link {
 
     max-height: calc(100% - 96px);
     -webkit-overflow-scrolling: touch;
-    margin-top: 45px;
+    margin-top: 85px;
     margin-left:35px;
     width: 140px;
     box-shadow: none;
+    opacity: 10%;
     
-
 }
 
 ul {
