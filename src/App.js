@@ -4,11 +4,8 @@ import './App.css';
 import Entrada from './components/Entrada';
 import Menu_Principal from './components/Menu_Principal';
 import Principal from './components/Principal';
-import Menu_Anuncio from './components/Menu_Anuncio';
 import Anuncio from './components/Anuncio';
-import Menu_Nosotros from './components/Menu_Nosotros';
 import Nosotros from './components/Nosotros';
-import Menu_Proceso from './components/Menu_Proceso';
 import Proceso from './components/Proceso';
 import Menu_Jardines_Cali from './components/Menu_Jardines_Cali';
 import Informacion_Jardines_Cali from './components/Informacion_Jardines_Cali';
@@ -24,11 +21,12 @@ import Menu_Colegios_Medellin from './components/Menu_Colegios_Medellin';
 import Informacion_Colegios_Medellin from './components/Informacion_Colegios_Medellin';
 import Menu_Educacion_Virtual from './components/Menu_Educacion_Virtual';
 import Informacion_Educacion_Virtual from './components/Informacion_Educacion_Virtual';
-import Menu_Contacto from './components/Menu_Contacto';
 import Contacto from './components/Contacto';
-import Menu_Aliados from './components/Menu_Aliados';
-import Aliados from './components/Aliados';
-
+import Colegio01 from './components/Colegio01';
+import Somos_La_Guia from './components/Somos_La_Guia';
+import Hacemos from './components/Hacemos';
+import Boton_Mas_Informacion from './components/Boton_Mas_Informacion';
+import Iconos_Footer from './components/Iconos_Footer';
 
 
 function App() {
@@ -43,12 +41,18 @@ function App() {
 
                     <Route exact path="/Principal">
                         <Menu_Principal />
+                        <Somos_La_Guia />
+                        <Hacemos />
+                        <Boton_Mas_Informacion />
                         <Principal />
+                        <Iconos_Footer/>
                     </Route>
 
                     <Route path="/Anuncio">
                         <Menu_Principal />
                         <Anuncio />
+                        <Colegio01 />
+                        <Iconos_Footer/>
                     </Route>
 
                     <Route path="/Nosotros">
