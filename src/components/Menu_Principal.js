@@ -9,12 +9,11 @@ import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 import HomeIcon from '@material-ui/icons/Home';
 import AssignmentIcon from '@material-ui/icons/Assignment';
 import CallIcon from '@material-ui/icons/Call';
-import './Menu_Ordenador.css';
-import './Menu_Dispositivo.css';
 import Pestaña_Jardines from '../components/Pestaña_Jardines';
 import Pestaña_Colegios from '../components/Pestaña_Colegios';
 import Pestaña_Educacion_Virtual from '../components/Pestaña_Educacion_Virtual';
-
+import './Menu_Ordenador.css';
+import './Menu_Dispositivo.css';
 
 const useStyles = makeStyles((theme) =>
   createStyles({
