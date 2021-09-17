@@ -1,0 +1,52 @@
+                 @media screen and (max-width: 1024px) {
+                            .row, .navbar {
+                        flex-direction: column;
+                            padding-top: 8%;
+
+
+                                }
+
+
+.iconos_footer{
+
+    background-color:  rgba(0, 204, 255, 0);  
+    margin-top: -53%;
+    margin-left: 82%;
+    position: relative;
+    width: 22%;
+    border-radius: 13px 13px;
+    opacity: 90%;
+    transition: 0.7s;
+    line-height: 50%;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    height: 35%;
+    z-index: 2000;
+    transform: scale(0.6);
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+  
+
+}
+
+.iconos_footer:hover{
+
+    margin-top: -11%;
+    opacity: 95%;
+    filter: brightness(100%);
+
+    
+}
+
+.icono_redes{
+
+    margin-top: -10%;
+    margin-left: -9%;
+    transition: 0.5s;
+    
+    
+}
+
+
+}
+
+
