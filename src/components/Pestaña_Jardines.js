@@ -5,6 +5,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import { BrowserRouter as Router, Switch, Route, Link, useParams, useRouteMatch } from "react-router-dom";
 import './Pestaña_Jardines_Ordenador.css';
+import './Pestaña_Jardines_Dispositivo.css';
 
 export default function SimpleMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
