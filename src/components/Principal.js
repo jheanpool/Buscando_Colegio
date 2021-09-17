@@ -31,7 +31,6 @@ export default function CenteredGrid() {
       <Grid container spacing={3}>
         <Grid item xs={12} sm={12} md={12} lg={12}>
 
-
         <div className="video_inicio">
           <VideoPlayer src={videoSrc} autoplay
            playbackRates={[0,5 , 1, 3.85, 16]}/> 
